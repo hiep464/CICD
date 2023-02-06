@@ -29,7 +29,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: luuhiep/hiep464:version1
+          tags: luuhiep/cicd:version1
 
   pull-and-up:
     name: Pull new image and re run with the new version
